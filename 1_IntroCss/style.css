@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgba(216, 191, 191, 0)
+}
+h1{
+    color: brown;
+    
+}
+p{
+    text-decoration: underline;
+    font-family: "League Script", cursive;
+    
+}
+a{
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: maroon;
+    color: white;
+    /*Genera un tipo boton*/
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.ball{
+    /* Alto, Ancho y Radio (Circulo) */
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: rgb(50, 0, 129);
+    border: 3px solid black
+}
+.text-importan{
+    font-size: 2rem;
+    background-color: rgba(255, 255, 0, 0.24);
+    font-style: oblique;
+}
+#titleWeb{
+    font-family: "League Script", cursive;
+}
