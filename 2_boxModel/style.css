@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     background-color: hsl(46.63deg 88.3% 63.14%);
@@ -29,6 +30,7 @@ body{
 .card > img{
     width: 100%;
     border-radius: 15px;
+    margin-bottom: 15px;
 }
 .card > p{
     color: gray;
