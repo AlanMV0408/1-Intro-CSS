@@ -60,13 +60,14 @@ header{
 
 .col_1 h3 span{
     text-decoration: underline;
-    text-decoration-color: rgb(30, 255, 0);
+    text-decoration-color: rgb(255, 167, 53);
 }
 .col_1 a{
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    text-decoration-color: rgb(30, 255, 0);
+    text-decoration-color: rgb(255, 167, 53);
+
 }
 
 
