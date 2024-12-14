@@ -101,3 +101,25 @@ header{
     transform: rotate(-30deg );
 
 }
+
+
+
+
+
+/* Primer breakpoint tablet*/
+@media screen and (max-width: 992px){
+    body{
+        background-color: tomato;
+    }
+    .welcome-content{
+        flex-direction: column-reverse;
+    }
+    .col-2 {
+        background-color: rgb(73, 19, 123) !important;
+        flex: none;
+        height: 300px;
+    }
+    .img-pizza, .img-hoja, .img-tomato {
+        width: 230px;
+    }
+}
