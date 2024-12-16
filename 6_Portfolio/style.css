@@ -110,6 +110,115 @@ header {
 
 }
 
+/* SECCION PRODUCTOS */
+/* #productos {
+    background-color: lightcoral;
+} */
+
+#productos>.container {
+    background-color: silver;
+    border-radius: 10px;
+}
+
+.productos-content {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.product-card {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+/* .productos-content div:nth-child(1) {
+    background-color: rgb(96, 125, 255);
+} */
+
+/* .productos-content div:nth-child(2) {
+    background-color: rgb(0, 226, 0);
+} */
+
+/* .productos-content div:nth-child(3) {
+    background-color: tomato;
+}
+ */
+.product-card:hover .card-hover {
+    opacity: 1;
+}
+
+/* CARD HOVER  */
+
+.card-hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479) !important;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+/* CARD HOVER HEADER */
+
+.card-hover-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.card-hover-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-guardar {
+    background-color: rgb(235, 31, 31);
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product-card img {
+    width: 100%;
+
+}
+
+/* CARD HOVER FOOTER */
+.card-hover-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    gap: 10px;
+}
+
+.card-hover-footer i {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+/* SECCION SKILLS */
+
 .skills-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
