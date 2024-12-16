@@ -79,10 +79,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 
+    position: relative;
     /* background-color: maroon; */
     flex: 1;
+    overflow: hidden;
 }
 
 .img-pizza,
@@ -213,10 +214,6 @@ header {
     cursor: pointer;
 }
 
-
-
-
-
 /* SECCION SKILLS */
 
 .skills-content {
@@ -237,16 +234,16 @@ header {
 
 
 /* Primer breakpoint tablet*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 800px) {
     body {
-        background-color: tomato;
+        background-color: rgb(26, 11, 94);
     }
 
     .welcome-content {
         flex-direction: column-reverse;
     }
 
-    .col-2 {
+    .col_2 {
         background-color: rgb(73, 19, 123) !important;
         flex: none;
         height: 300px;
@@ -258,7 +255,14 @@ header {
         width: 230px;
     }
 
+    .productos-content {
+        flex-wrap: wrap;
+    }
 
+    .product-card {
+        width: 49%;
+        flex: none;
+    }
 
     .skills-content {
 
@@ -271,16 +275,17 @@ header {
 @media screen and (max-width: 576px) {
 
     /* ORGANIZAR COLUMNAS Y FILAS*/
-    .productos-content {
+    
+    /* .productos-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 
-    /* .product-card{
+    .product-card{
         flex: none;
         width: 80%;
         margin: auto;
-    } */
+    }
 
     .skills-content {
         grid-template-columns: repeat(1, 1fr);
