@@ -224,7 +224,7 @@ header {
 
 }
 
-.skills-content>div {
+.skills-content > div {
     display: grid;
     row-gap: 10px;
 }
@@ -255,14 +255,14 @@ header {
         width: 230px;
     }
 
-    .productos-content {
+   /*  .productos-content {
         flex-wrap: wrap;
     }
 
     .product-card {
         width: 49%;
         flex: none;
-    }
+    } */
 
     .skills-content {
 
@@ -273,25 +273,23 @@ header {
 
 /* BREAKPOINT MOBILE */
 @media screen and (max-width: 576px) {
-
-    /* ORGANIZAR COLUMNAS Y FILAS*/
-    
-    /* .productos-content {
+ /* ACOMODO DE COLUMNAS Y FILAS  */
+    .productos-content{
         display: grid;
         grid-template-columns: 1fr 1fr;
-    } */
-
-    .product-card{
+    }
+/* SE COMENTO PORQUE ERA SOLO DE 1 FILA */
+    /* .product-card{
         flex: none;
         width: 80%;
         margin: auto;
-    }
+    } */
 
     .skills-content {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .skills-content>div {
+    .skills-content > div {
         text-align: center;
     }
 
